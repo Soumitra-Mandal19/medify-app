@@ -1,0 +1,76 @@
+.root {
+    background: #1B3C74;
+    height: 424px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainContainer {
+    width: 1143px;
+    height: 354px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.topPortion {
+    width: 1143px;
+    height: 235px;
+    display: flex;
+}
+
+.logoContainer {
+
+    width: 358.81px;
+    height: 235px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.logoMedify {
+    padding-top: 30px;
+}
+
+.listContainer {
+    width: 231.82px;
+    height: 235px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.ulStyle {
+    list-style-type: none;
+}
+
+.liStyle {
+    margin-bottom: 5px;
+}
+
+.socialMediaLogo {
+    display: flex;
+    column-gap: 16px;
+}
+
+.iconBackground {
+    height: 35.2px;
+    width: 35.2px;
+    background: white;
+    border-radius: 17.6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottomPortion {
+    height: 59px;
+    width: 1143px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: flex-end;
+    font-size: 16px;
+    font-weight: 400;
+    border-top: 1px solid #FFFFFF1A;
+}

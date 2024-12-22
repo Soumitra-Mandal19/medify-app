@@ -1,0 +1,32 @@
+.root {
+    display:flex;
+     flex-direction:column; 
+     width:700px; 
+     padding:24px; 
+     justify-content:center; 
+     align-items:center; 
+     background:#FFFFFF
+}
+
+.swiperContainer {
+    display: flex; 
+    width: 750px; 
+    text-align: center; 
+    align-items: center 
+}
+
+.dateAndAvailabilityContainer {
+
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    row-gap: 6px 
+
+}
+
+.availabilityText {
+    color: #01A400; 
+    font-size: 12px; 
+    font-weight: 400 ;
+}

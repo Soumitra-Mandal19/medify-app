@@ -1,0 +1,33 @@
+.root {
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    padding: 10px;
+}
+
+
+.swiperContainer {
+    display:flex; 
+    height:510px;
+}
+
+.card {
+    display:flex; 
+    flex-direction:column; 
+    row-gap:30px;
+}
+
+.headingFont {
+    color:#1B3C74; 
+    font-weight:600; 
+    font-size:48px; 
+    display:flex; 
+    align-items:center; 
+    justify-content:center;
+    padding-top: 50px;
+}
+
+.picsAndDetailsConatiner {
+    display:flex;
+    column-gap: 16px;
+}

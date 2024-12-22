@@ -1,0 +1,54 @@
+.searchBoxContainer {
+    width:1006px; 
+    height:111px; 
+    background:#FFFFFF; 
+    border-radius:15px; 
+    border:1px black; 
+    display:flex; 
+    justify-content:center; 
+    align-items:center; 
+    column-gap:20px;
+}
+
+.stateSelectBar {
+    width:326px; 
+    height:50px; 
+    background:#FAFBFE; 
+    border:1px #F0F0F0; 
+    border-radius:8px; 
+    color:#ABB6C7; 
+    font-weight:400; 
+    font-size:14px;
+    padding: 0px 10px 0px 10px;
+}
+
+.citySelectBar {
+    width:326px; 
+    height:50px; 
+    background:#FAFBFE; 
+    border:1px #F0F0F0; 
+    border-radius:8px; 
+    color:#ABB6C7; 
+    font-weight:400; 
+    font-size:14px;
+    padding: 0px 10px 0px 10px;
+}
+
+.searchButton {
+    height:50px; 
+    width:231px; 
+    background:#2AA8FF; 
+    border-radius:8px; 
+    color:#FFFFFF; 
+    font-size:16px; 
+    font-weight:500; 
+    border:none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.searchIcon {
+    padding-right: 3px;
+}

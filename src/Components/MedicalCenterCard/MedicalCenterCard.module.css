@@ -1,0 +1,127 @@
+.root {
+    display: flex;
+    column-gap: 20px;
+    width: 700px;
+    height: 268.38px;
+    justify-content: center;
+    border-radius: 15px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    padding: 24px;
+    background-color: #FFFFFF;
+}
+
+.imageColumn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+
+.logoCircleBackground {
+    width: 124px;
+    height: 124px;
+    background-color: #8CCFFF;
+    border-radius: 62px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.hospitalLogoImage {
+    height: 80px;
+    width: 80px;
+}
+
+.hospitalDetailsContainer {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    text-align: left;
+    padding-top: 10px;
+}
+
+.hospitalName {
+    color: #14BEF0;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.hospitalCityAndState {
+    color: #414146;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.hospitalDetail {
+    color: #414146;
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+.strikeThrough {
+    text-decoration: line-through;
+}
+
+.free {
+    color: #02A401;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.availableAndButtonContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 16px;
+    justify-content: flex-end;
+    padding-bottom: 24px;
+}
+
+.availablity {
+    color: #01A400;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.button {
+    background: #2AA7FF;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 14px;
+    width: 212px;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px #14BEF0;
+    cursor: pointer;
+}
+
+.cancelButton {
+    background: rgb(224, 57, 57);
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+    width: 100px;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid #14BEF0;
+}
+
+
+.rating {
+    width: 44px;
+    height: 22.5px;
+    background: #00A500;
+    border-radius: 3.5px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.thumbIcon {
+   
+    padding-right: 5px;
+}

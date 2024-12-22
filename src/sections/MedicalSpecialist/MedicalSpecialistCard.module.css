@@ -1,0 +1,43 @@
+.root {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.imgBackground {
+   width:370px;
+   height: 414px;
+   box-shadow: 0px 15px 55px -10px #00000017;
+    border-top-left-radius: 182px;
+    border-top-right-radius: 182px;
+}
+
+.titleAndDesignationContainer {
+    display:flex; 
+    flex-direction:column; 
+    justify-content:center; 
+    align-items:center; 
+    width:250px;
+}
+
+.titleName {
+    font-size: 24px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1B3C74;
+}
+
+.designation {
+    font-size: 16px;
+    font-weight: 500;
+    color: #2AA7FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}

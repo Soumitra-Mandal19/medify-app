@@ -1,0 +1,55 @@
+.root {
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+    padding-bottom: 30px;
+    font-size: 14px;
+    width: 100%;
+}
+
+.whiteBackground {
+    background: #FFFFFF;
+}
+
+.hasBackground { 
+    background: linear-gradient(81deg, #E7F0FF 9.01%, rgba(232, 241, 255, 0.47) 89.11%);
+}
+
+.topMessage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2AA7FF;
+    height: 40px;
+    width: 100%;
+    color: #FFFFFF;
+}
+
+.navContainer {
+    display:flex;
+     justify-content:space-around; 
+     align-items:center;
+     width: 100%;
+
+}
+
+.buttonContainer {
+    display:flex; 
+    column-gap:20px;
+} 
+
+.navButton {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.bookingButton {
+    border: none;
+    background-color: #2AA8FF;
+    color: #FFFFFF;
+    height: 40px;
+    width: 130px;
+    border-radius: 8px;
+    cursor: pointer
+}

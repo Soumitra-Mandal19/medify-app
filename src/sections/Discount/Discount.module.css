@@ -1,0 +1,19 @@
+.root {
+    height:500px;  
+     align-content:end; 
+     background: #FFFFFF;
+}
+
+.swiperConatiner {
+    height:250px; 
+    display:flex; 
+    margin-bottom:20px; 
+    margin-left:10px; 
+    margin-right:10px;
+}
+
+.image {
+    width: 380.3px; 
+    height: 199.15px
+}
+

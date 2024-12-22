@@ -1,0 +1,17 @@
+.heroSearchBarPosition {
+    position:relative;
+    top: -320px;
+    z-index: 111111;
+}
+
+.discountPosition {
+    position: relative;
+    top: -470px;
+}
+
+
+.adjustPosition {
+    position: relative;
+    top: -490px;
+}
+
